@@ -21,7 +21,7 @@
                     value => {
                     if (value) return true
 
-                    return 'You must enter a first name.'
+                    return 'Enter todo'
                     },
                 ],
             }
