@@ -17,9 +17,6 @@ import TheTodos from './TheTodos.vue';
         const storedTodos = localStorage.getItem('todoItems');
         return {
             todos: storedTodos ? JSON.parse(storedTodos) :[
-                { id: id++, task: "Cook rice", done: true},
-                { id: id++, task: "Cook Yam", done: true},
-                { id: id++, task: "Cook Beans", done: false },
             ],
             tasks: ''
         }
